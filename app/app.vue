@@ -1,15 +1,23 @@
 <script setup lang="ts">
-const { finalizePendingLocaleChange } = useI18n()
+import { useHead, useRoute } from '#imports'
+
+const { finalizePendingLocaleChange, locale } = useI18n()
 
 const onBeforeEnter = async () => {
     await finalizePendingLocaleChange()
 }
 
-const { state } = useCookieConsent()
-
-// Using the composable in your script
-const allowedStatisticsAndMarketing = computed(() => {
-    return state.value.statistic && state.value.marketing
+useHead({
+    script: [
+        {
+            id: 'Cookiebot',
+            src: "https://consent.cookiebot.com/uc.js",
+            "data-cbid": "9c9bf308-c226-412b-ac3a-8c7ed80c5dc2",
+            "data-culture": locale,
+            "type": "text/javascript",
+            async: true,
+        }
+    ]
 })
 </script>
 
@@ -24,7 +32,6 @@ const allowedStatisticsAndMarketing = computed(() => {
       }"
             />
         </NuxtLayout>
-
     </UApp>
 </template>
 
