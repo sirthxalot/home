@@ -132,6 +132,6 @@
             </a>
         </UContainer>
     </section>
-    <NuxtCookieConsentPolicy />
+<!--    <NuxtCookieConsentPolicy />-->
 </div>
 </template>

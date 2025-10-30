@@ -1,5 +1,18 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  app: {
+    head: {
+      title: 'Alexander Bösch', // default fallback title
+      script: [
+        {
+          id: 'Cookiebot',
+          src: "https://consent.cookiebot.com/uc.js",
+          "data-cbid": "9c9bf308-c226-412b-ac3a-8c7ed80c5dc2",
+          "type": "text/javascript"
+        }
+      ]
+    },
+  },
   compatibilityDate: '2025-07-15',
   css: ['~/assets/css/sirthxalot.css'],
   devtools: { enabled: true },
