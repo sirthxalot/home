@@ -1,12 +1,18 @@
 <script setup lang="ts">
-import { useHead, useRoute } from '#imports'
+import { useHead } from '#imports'
 
 const { finalizePendingLocaleChange, locale } = useI18n()
 
+/**
+ * Fade out page while loading the locale.
+ */
 const onBeforeEnter = async () => {
     await finalizePendingLocaleChange()
 }
 
+/**
+ * Set script for cookiebot using locale.
+ */
 useHead({
     script: [
         {
@@ -26,22 +32,21 @@ useHead({
         <NuxtLayout>
             <NuxtRouteAnnouncer />
             <NuxtPage :transition="{
-        name: 'my',
-        mode: 'out-in',
-        onBeforeEnter
-      }"
-            />
+                name: 'i18n',
+                mode: 'out-in',
+                onBeforeEnter
+            }"/>
         </NuxtLayout>
     </UApp>
 </template>
 
 <style scoped>
-.my-enter-active,
-.my-leave-active {
+.i18n-enter-active,
+.i18n-leave-active {
     transition: opacity 0.3s;
 }
-.my-enter,
-.my-leave-active {
+.i18n-enter,
+.i18n-leave-active {
     opacity: 0;
 }
 </style>

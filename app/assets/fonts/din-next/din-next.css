@@ -1,0 +1,10 @@
+@font-face {
+    font-family: DIN Next W01 Bold;
+    src: url('./DIN Next LT W01 Bold.ttf');
+    font-weight: bold;
+}
+@font-face {
+    font-family: DIN Next W01 Light;
+    src: url('./DIN Next Rounded LT W01 Light.ttf');
+    font-weight: normal;
+}

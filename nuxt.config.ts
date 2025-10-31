@@ -9,6 +9,9 @@ export default defineNuxtConfig({
   css: ['~/assets/css/sirthxalot.css'],
   devtools: { enabled: true },
   modules: ['@nuxt/ui', '@nuxtjs/i18n', '@weareheavy/nuxt-cookie-consent'],
+  plugins: [
+    '~/plugins/i18n',
+  ],
   cookieConsent: {
     provider: 'cookiebot',
     cbid: '9c9bf308-c226-412b-ac3a-8c7ed80c5dc2',

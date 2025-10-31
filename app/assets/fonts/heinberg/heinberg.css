@@ -1,0 +1,15 @@
+@font-face {
+    font-family: HeinbergRegular;
+    src: url('./Heinberg-Regular.otf');
+    font-weight: bold;
+}
+@font-face {
+    font-family: HeinbergRounded;
+    src: url('./Heinberg-Rounded.otf');
+    font-weight: bold;
+}
+@font-face {
+    font-family: HeinbergTextured;
+    src: url('./Heinberg-Textured.otf');
+    font-weight: bold;
+}
