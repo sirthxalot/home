@@ -8,7 +8,12 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   css: ['~/assets/css/sirthxalot.css'],
   devtools: { enabled: true },
-  modules: ['@nuxt/ui', '@nuxtjs/i18n', '@weareheavy/nuxt-cookie-consent'],
+  modules: [
+    '@nuxt/ui',
+    '@nuxtjs/i18n',
+    '@weareheavy/nuxt-cookie-consent',
+    'nuxt-lucide-icons',
+  ],
   plugins: [
     '~/plugins/i18n',
   ],
