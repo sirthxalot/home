@@ -15,7 +15,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="hidden lg:block col-span-2 bg-blue-950 flex flex-col">
+                <div class="hidden lg:flex col-span-2 bg-blue-950 flex-col">
 <pre class="text-[9px] text-white m-auto">
                                o$o
                            $  "o        o$o
