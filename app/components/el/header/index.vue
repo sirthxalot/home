@@ -13,6 +13,9 @@ const availableLocales = computed(() => {
     <UHeader ref="header"
              id="top"
              class="header"
+             :toggle="{
+              class: 'hidden'
+            }"
     >
         <template #title>
             <h1 class="heading">Alexander Bösch</h1>

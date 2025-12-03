@@ -1,5 +1,5 @@
 <template>
-    <section id="logos" class="my-16 flex flex-col gap-16 pb-16 border-b">
+    <section id="logos" class="flex flex-col gap-16 py-16 border-b">
         <h3 class="text-center text-2xl font-light uppercase">{{ $t('logos.intro') }}</h3>
         <UContainer>
             <UMarquee pause-on-hover>
