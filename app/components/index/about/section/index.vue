@@ -1,29 +1,29 @@
 <script setup lang="ts">
 const timeline = ref([
     {
-        date: '2008 - 2011',
-        title: $t('tl.jobs.1.title'),
-        description: $t('tl.jobs.1.description'),
-        icon: 'i-lucide-rocket'
-    },
-    {
-        date: '2012 - 2014',
-        title: $t('tl.jobs.2.title'),
-        description: $t('tl.jobs.2.description'),
-        icon: 'i-lucide-palette'
+        date: '2019 - 2025',
+        title: $t('tl.jobs.4.title'),
+        description: $t('tl.jobs.4.description'),
+        icon: 'i-lucide-code'
     },
     {
         date: '2015 - 2018',
         title: $t('tl.jobs.3.title'),
         description: $t('tl.jobs.3.description'),
         icon: 'i-lucide-code'
-    },
+    },  
     {
-        date: '2019 - 2025',
-        title: $t('tl.jobs.4.title'),
-        description: $t('tl.jobs.4.description'),
-        icon: 'i-lucide-code'
-    },
+        date: '2012 - 2014',
+        title: $t('tl.jobs.2.title'),
+        description: $t('tl.jobs.2.description'),
+        icon: 'i-lucide-palette'
+    },    
+    {
+        date: '2008 - 2011',
+        title: $t('tl.jobs.1.title'),
+        description: $t('tl.jobs.1.description'),
+        icon: 'i-lucide-rocket'
+    },    
 ])
 </script>
 
