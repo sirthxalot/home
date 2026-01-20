@@ -36,6 +36,8 @@ useHead({
                 mode: 'out-in',
                 onBeforeEnter
             }"/>
+            <UButton class="hidden"icon="i-lucide-moon" />
+            <UButton class="hidden" icon="i-lucide-sun" />
         </NuxtLayout>
     </UApp>
 </template>

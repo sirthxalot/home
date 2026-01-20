@@ -6,7 +6,7 @@
                     <h2 class="card__header">
                         1. {{ $t('offer.1.title') }}
                     </h2>
-                    <div class="card__body animate-fade-in">
+                    <div class="card__body px-4 animate-fade-in">
                         <ul class="text-lg leading-8">
                             <li>{{ $t('offer.1.1') }}</li>
                             <li>{{ $t('offer.1.2') }}</li>
@@ -24,7 +24,7 @@
                     <h2 class="card__header">
                        2. {{ $t('offer.2.title') }}
                     </h2>
-                    <div class="card__body animate-fade-in">
+                    <div class="card__body px-4 animate-fade-in">
                         <ul class="text-lg leading-8">
                             <li>{{ $t('offer.2.1') }}</li>
                             <li>{{ $t('offer.2.2') }}</li>
@@ -42,7 +42,7 @@
                     <h2 class="card__header">
                        3. {{ $t('offer.3.title') }}
                     </h2>
-                    <div class="card__body animate-fade-in">
+                    <div class="card__body px-4 animate-fade-in">
                         <ul class="text-lg leading-8">
                             <li>{{ $t('offer.3.1') }}</li>
                             <li>{{ $t('offer.3.2') }}</li>
