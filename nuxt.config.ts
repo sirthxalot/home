@@ -15,7 +15,7 @@ export default defineNuxtConfig({
     'nuxt-lucide-icons',
   ],
   plugins: [
-    '~/plugins/i18n',
+    '~/plugins/i18n'
   ],
   cookieConsent: {
     provider: 'cookiebot',

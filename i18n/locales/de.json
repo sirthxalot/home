@@ -3,7 +3,11 @@
     "ui.header.menu.color.button.text": "Wechsel den Farbmodus",
     "ui.header.menu.language.select.text": "Sprachwechsel auf Englisch",
     "index.seo.description": "Professionelle Webentwicklung seit 2015. Spezialisiert auf PHP-Anwendungen, E-Commerces und WordPress CMS.",
-    "index.hero.title": "Vom Prototyp zum Endprodukt in kürzester Zeit!",
-    "index.hero.description.1": "Mehr als 10-Jahre Berufserfahrung als Webentwickler geben mir das Verständnis, sowie die Routine, welche benötigt wird, um ein Projekt erfolgreich abzuschliessen.",
-    "index.hero.description.2": "Ob als Einsamer Wolf, im Team oder als Führungskraft ich durfte in alle Rollen schlüpfen und kann mich integrieren aber auch behaupten."
+    "index.introduction.title": "Laravel Artisan - ",
+    "index.introduction.title.p.1": "Ein Ökosystem dass zu mir passt!",
+    "index.introduction.title.p.2": "Eine Syntax in welche ich mich verliebt habe!",
+    "index.introduction.title.p.3": "Enthusiast durch und durch!",
+    "index.hero.production.title": "Vom Prototyp zum Endprodukt in kürzester Zeit!",
+    "index.hero.production.description.1": "Mehr als 10-Jahre Berufserfahrung als Webentwickler geben mir das Verständnis, sowie die Routine, welche benötigt wird, um ein Projekt erfolgreich abzuschliessen.",
+    "index.hero.production.description.2": "Ob als Einsamer Wolf, im Team oder als Führungskraft ich durfte in alle Rollen schlüpfen und kann mich integrieren aber auch behaupten."
 }
