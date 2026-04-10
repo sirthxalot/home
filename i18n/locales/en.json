@@ -3,5 +3,7 @@
     "ui.header.menu.color.button.text": "Change color mode",
     "ui.header.menu.language.select.text": "Change language to german",
     "index.seo.description": "Professional web development since 2015. Specialized on PHP solutions, E-Commerces and WordPress CMS.",
-    "index.hero.title": "From prototype to production in no time!"
+    "index.hero.title": "From prototype to production in no time!",
+    "index.hero.description.1": "More than a decade of experience in professional web development gives me the acknowledgement and routine needed to ensure the job gets done correctly and in schedule.",
+    "index.hero.description.2": "Whether as lone wolf, within a team or as a leader; I will find my spot and can quickly adapt as needed."
 }

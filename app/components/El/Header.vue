@@ -14,7 +14,7 @@ const items = computed<NavigationMenuItem[]>(() => [])
           :toggle="{ class: 'hidden' }"
 >
     <template #title>
-      <h1 class="heading">Alexander Bösch</h1>
+      <h1 class="font-heading">Alexander Bösch</h1>
     </template>
 
     <UNavigationMenu :items="items" />

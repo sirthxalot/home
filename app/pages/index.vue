@@ -9,6 +9,9 @@ useSeoMeta({
 
 <template>
     <div>
-      <UContainer><p>Content goes here.</p></UContainer>
+      <IndexHero :title="$t('index.hero.title')">
+        <p>{{ $t('index.hero.description.1') }}</p>
+        <p>{{ $t('index.hero.description.2') }}</p>
+      </IndexHero>
     </div>
 </template>
