@@ -1,2 +1,13 @@
+@import "./../fonts/manrope/manrope.css";
+@import "./../fonts/inter/inter.css";
 @import "tailwindcss";
 @import "@nuxt/ui";
+
+@theme {
+  --font-sans: Manrope, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+:root {
+  font-size: clamp(1rem, 1rem + ((1vw - 0.2rem) * 0.196), 1.125rem);
+  line-height: 1.4;
+}

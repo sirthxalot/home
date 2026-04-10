@@ -1,5 +1,7 @@
 {
-   "ui.header.menu.github.text": "Besuche mich auf GitHub",
-   "ui.header.menu.color.button.text": "Wechsel den Farbmodus",
-   "ui.header.menu.language.select.text": "Sprachwechsel auf Englisch"
+    "ui.header.menu.github.text": "Besuche mich auf GitHub",
+    "ui.header.menu.color.button.text": "Wechsel den Farbmodus",
+    "ui.header.menu.language.select.text": "Sprachwechsel auf Englisch",
+    "index.seo.description": "Professionelle Web-Entwicklung seit 2015. Spezialisiert auf PHP-Anwendungen, E-Commerces und WordPress CMS.",
+    "index.hero.title": "Vom Prototyp zum Endprodukt in kürzester Zeit!"
 }

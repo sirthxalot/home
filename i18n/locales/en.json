@@ -1,5 +1,7 @@
 {
     "ui.header.menu.github.text": "Visit me on GitHub",
     "ui.header.menu.color.button.text": "Change color mode",
-    "ui.header.menu.language.select.text": "Change language to german"
+    "ui.header.menu.language.select.text": "Change language to german",
+    "index.seo.description": "Professional web development since 2015. Specialized on PHP solutions, E-Commerces and WordPress CMS.",
+    "index.hero.title": "From prototype to production in no time!"
 }

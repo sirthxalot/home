@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import {useHead} from "#imports";
 import type { NavigationMenuItem } from '@nuxt/ui'
 
 const route = useRoute()
@@ -7,9 +8,13 @@ const items = computed<NavigationMenuItem[]>(() => [])
 </script>
 
 <template>
-  <UHeader>
+<UHeader  ref="header"
+          id="top"
+          class="header"
+          :toggle="{ class: 'hidden' }"
+>
     <template #title>
-      <Logo class="h-6 w-auto" />
+      <h1 class="heading">Alexander Bösch</h1>
     </template>
 
     <UNavigationMenu :items="items" />

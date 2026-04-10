@@ -35,5 +35,5 @@ export default defineNuxtConfig({
       scan: true,
       sizeLimitKb: 256,
     },
-  },
+  }
 })
