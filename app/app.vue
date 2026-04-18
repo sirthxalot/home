@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { useHead } from '#imports'
 
+const { t } = useI18n()
+
 const { finalizePendingLocaleChange, locale } = useI18n()
 
 /**
@@ -10,10 +12,19 @@ const onBeforeEnter = async () => {
     await finalizePendingLocaleChange()
 }
 
+
+const localeHead = useLocaleHead({
+  addSeoAttributes: true
+})
+
 /**
  * Set script for cookiebot using locale.
  */
 useHead({
+    title: computed(() => t('index.seo.title')),
+    htmlAttrs: {
+        lang: computed(() => localeHead.value.htmlAttrs?.lang)
+    },
     script: [
         {
             id: 'Cookiebot',

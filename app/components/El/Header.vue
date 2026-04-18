@@ -14,17 +14,17 @@ const items = computed<NavigationMenuItem[]>(() => [])
           :toggle="{ class: 'hidden' }"
 >
     <template #title>
-      <h1 class="font-heading">Alexander Bösch</h1>
+      <h1 class="font-heading" v-html="$t('name')" />
     </template>
 
     <UNavigationMenu :items="items" />
 
     <template #right>
-      <UTooltip :text="$t('ui.header.menu.color.button.text')">
+      <UTooltip :text="$t('color.button.text')">
         <div><UColorModeButton /></div>
       </UTooltip>
 
-      <UTooltip :text="$t('ui.header.menu.github.text')">
+      <UTooltip :text="$t('github.text')">
         <UButton
         color="neutral"
         variant="ghost"
@@ -34,7 +34,7 @@ const items = computed<NavigationMenuItem[]>(() => [])
         aria-label="GitHub"
         />
       </UTooltip>
-      <UTooltip :text="$t('ui.header.menu.language.select.text')">
+      <UTooltip :text="$t('i18n.lang.select.text')">
         <div><LanguageSelect /></div>
       </UTooltip>
     </template>

@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   app: {
     head: {
-      title: 'Alexander Bösch', // default fallback title
+      //title: 'Alexander Bösch', // default fallback title
     },
   },
   compatibilityDate: '2025-07-15',

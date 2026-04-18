@@ -1,7 +1,7 @@
 <template>
     <div>
       <el-header></el-header>
-      <UMain><slot /></UMain>
+      <u-main><slot /></u-main>
     </div>
 </template>
 
