@@ -45,5 +45,7 @@
     "offer.3.2": "Reformatting and structure code",
     "offer.3.3": "Update or upgrade old dependencies",
     "offer.3.4": "Monitor systems",
-    "offer.3.5": "Searching for security vulnerabilities"
+    "offer.3.5": "Searching for security vulnerabilities",
+    "mail.section.title": "Don't hesitate!",
+    "mail.section.description": "Please send me a message at:"
 }
