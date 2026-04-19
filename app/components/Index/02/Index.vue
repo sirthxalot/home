@@ -1,5 +1,5 @@
 <template>
-  <section id="hard-skills" class="flex flex-col gap-16 py-16 border-b">
+  <section id="hard-skills" class="flex flex-col gap-16 py-16 border-b border-gray-300">
       <h2 class="sr-only">Hard Skills</h2>
               <UContainer>
             <UMarquee pause-on-hover>
