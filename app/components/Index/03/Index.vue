@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { tooltip } from '#build/ui';
+
 const users = ref([
   {
     name: $t('name'),
@@ -58,7 +60,7 @@ const timeline = ref([
     </UPageCard>
   </UPageList>
 
-      <div class="grid grid-cols-3 gap-4 px-6 py-8">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:px-6 py-8">
         <div class="flex flex-col gap-4">
           <h3 class="font-black text-3xl uppercase" v-html="$t('index.hero.production.title')" />
           <p v-html="$t('index.hero.production.description.1')" />
