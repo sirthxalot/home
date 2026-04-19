@@ -43,7 +43,7 @@ const timeline = ref([
 </script>
 
 <template>
-  <section id="alexander-boesch-professional-experience" class="py-8">
+  <section id="alexander-boesch-professional-experience" class="pt-8">
     <u-container>
       <h2 class="sr-only" v-html="$t('job.experience.label')" />
         <UPageList>

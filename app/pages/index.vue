@@ -40,5 +40,6 @@ useSeoMeta({
       <index-01 />
       <index-02 />
       <index-03 />
+      <index-04 />
     </main>
 </template>
