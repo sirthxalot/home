@@ -1,6 +1,7 @@
 {
     "name": "Alexander Boesch",
     "city": "Zuerich",
+    "location.title": "I live in zurich, switzerland",
     "job.title": "Senior Web Developer {'|'} PHP & Laravel Expert",
     "job.experience.label": "Professional Expirience",
     "github.text": "Visit me on GitHub",
