@@ -37,6 +37,6 @@ useSeoMeta({
 
 <template>
     <main>
-      Hello
+      <index-01 />
     </main>
 </template>
