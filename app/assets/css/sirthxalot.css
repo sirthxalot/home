@@ -6,9 +6,39 @@
 @theme {
   --font-sans: Manrope, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   --font-heading: Inter, var(--font-sans);
+  --color-primary: var(--color-orange-500);
 }
 
 :root {
   font-size: clamp(1rem, 1rem + ((1vw - 0.2rem) * 0.196), 1.125rem);
   line-height: 1.4;
+}
+
+/*** Works on common browsers ***/
+::selection {
+    background-color: var(--color-orange-500);
+    color: #fff;
+}
+
+/*** Mozilla based browsers ***/
+::-moz-selection {
+    background-color: var(--color-orange-500);
+    color: #fff;
+}
+
+/***For Other Browsers ***/
+::-o-selection {
+    background-color: var(--color-orange-500);
+    color: #fff;
+}
+
+::-ms-selection {
+    background-color: var(--color-orange-500);
+    color: #fff;
+}
+
+/*** For Webkit ***/
+::-webkit-selection {
+    background-color: var(--color-orange-500);
+    color: #fff;
 }

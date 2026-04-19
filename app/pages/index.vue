@@ -28,7 +28,7 @@ useSeoMeta({
           "https://www.linkedin.com/in/alexander-b%C3%B6sch-12b891129/",
           "http://proko.com/@sirthxalot/"
         ],
-        "knowsAbout": ["PHP", "Laravel", "Shopware", "WordPress", "Nuxt.js", "Vue.js", "Docker", "TYPO3"]
+        "knowsAbout": ["PHP", "Laravel", "Shopware", "WordPress", "Nuxt.js", "Vue.js", "Docker", "TYPO3", "HTML5", "Ecmascript", "jQuery", "SQL", "Google Developers", "Adobe Master Collection", "Clip Studio Paint", "Procreate", "Affinity Publisher"]
       })
     }
   ]
