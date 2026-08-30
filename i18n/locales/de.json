@@ -23,6 +23,8 @@
     "tl.jobs.3.description": "Realisierung von Kundenspezifischen Web-Applikationen im Web-To-Print Bereich. Vermehrter Kontakt mit Kunden sowie Leitung von Projekten.",
     "tl.jobs.4.title": "Web-Entwicklung (Schellenberg Gruppe AG)",
     "tl.jobs.4.description": "Entwicklung von internen Projekten speziell im Web-To-Print oder Marketing-Sektor sowie vermehrter Einsatz von E-Commerces oder individuellen Zahlungsmittel.",
+    "tl.jobs.5.title": "Webmanager / Grafiker / Marketing-Manager (Hug Baustoffe AG)",
+    "tl.jobs.5.description": "Konzeption, Gestaltung und Produktion von Katalogen, Broschüren, Aktionsflyern und Zeitungsinseraten bis zur Druckdatenerstellung. Eigenverantwortliche Betreuung, Code-Optimierung und Prüfung der Standards auf der Craft CMS Plattform. Schnittstelle zur Verkaufsabteilung für das visuelle Branding und den Sortimentsaufbau im Grosshandel.",
     "offer.title": "Was ich für Dich tun kann",
     "offer.1.title": "Konzeption & Planung",
     "offer.1.1": "Layout, Story-Boarding, Mockup",
@@ -47,6 +49,6 @@
     "offer.3.4": "Überwachung von Systemen",
     "offer.3.5": "Suche nach Sicherheitslücken",
     "mail.section.title": "Nicht zögern!",
-    "mail.section.description": "Schreiben Sie mir bitte eine E-Mail an:",
+    "mail.section.description": "Schreibe mir bitte eine E-Mail an:",
     "social.linkedin.label": "Verknüpfe Dich via LinkedIn mit mir"
 }

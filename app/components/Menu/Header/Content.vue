@@ -41,10 +41,10 @@ defineProps({
       <UButton
         color="neutral"
         variant="ghost"
-        to="mailto:call@sirthxalot.com"
+        to="mailto:alexander.boesch.ch@gmail.com"
         target="_blank"
         icon="i-material-symbols-light-mail-outline-sharp"
-        label="call@sirthxalot.com"
+        label="alexander.boesch.ch@gmail.com"
       />
 
       <LanguageSelect />

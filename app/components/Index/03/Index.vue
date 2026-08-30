@@ -16,6 +16,12 @@ const users = ref([
 ])
 const timeline = ref([
     {
+        date: '2026 - 2026',
+        title: $t('tl.jobs.5.title'),
+        description: $t('tl.jobs.5.description'),
+        icon: 'i-lucide-palette'
+    },
+    {
         date: '2019 - 2025',
         title: $t('tl.jobs.4.title'),
         description: $t('tl.jobs.4.description'),

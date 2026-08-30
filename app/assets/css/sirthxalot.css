@@ -42,3 +42,5 @@
     background-color: var(--color-orange-500);
     color: #fff;
 }
+
+.typed-cursor { display: none;}

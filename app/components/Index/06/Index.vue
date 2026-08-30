@@ -4,9 +4,9 @@
             <h2 class="font-black uppercase text-3xl mb-3">
                 {{ $t('mail.section.title') }}
             </h2>
-            <a class="heading" href="mailto:call@sirthxalot.com">
+            <a class="heading" href="mailto:alexander.boesch.ch@gmail.com">
                 <strong>{{ $t('mail.section.description') }}</strong><br />
-                <span>call@sirthxalot.com</span>
+                <span>alexander.boesch.ch@gmail.com</span>
             </a>
         </div>
     </div>

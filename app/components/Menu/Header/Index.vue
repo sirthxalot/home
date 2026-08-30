@@ -24,11 +24,11 @@
         aria-label="LinkedIn Profile"
         />
       </UTooltip>
-       <UTooltip :text="$t('mail.section.description')+' call@sirthxalot.com'">
+       <UTooltip :text="$t('mail.section.description')+' alexander.boesch.ch@gmail.com'">
         <UButton
         color="neutral"
         variant="ghost"
-        to="mailto:call@sirthxalot.com"
+        to="mailto:alexander.boesch.ch@gmail.com"
         target="_blank"
         icon="i-material-symbols-light-mail-outline-sharp"
         aria-label="E-Mail"
